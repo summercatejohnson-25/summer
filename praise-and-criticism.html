@@ -1,0 +1,1410 @@
+<!doctype html>
+<html lang="en" data-visualize-standalone>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Praise And Criticism</title>
+<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+</head>
+<body>
+<iframe sandbox="allow-scripts" referrerpolicy="no-referrer" title="Praise And Criticism" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;title&gt;Praise And Criticism&lt;/title&gt;
+&lt;style&gt;:root {
+  color-scheme: light dark;
+  background-color: var(
+    --background,
+    var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
+  ) !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --color-background-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --card: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --card-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --popover: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255), rgb(45 45 45))
+  );
+  --popover-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --primary: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --primary-foreground: var(
+    --color-text-inverse,
+    light-dark(rgb(255 255 255), rgb(13 13 13))
+  );
+  --secondary: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%))
+  );
+  --secondary-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: var(
+    --color-text-secondary,
+    light-dark(rgb(26 28 31 / 49.4%), rgb(255 255 255 / 49.8%))
+  );
+  --accent: var(
+    --color-background-info,
+    light-dark(rgb(229 242 255), rgb(13 39 63))
+  );
+  --accent-foreground: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --destructive: var(
+    --color-text-warning,
+    light-dark(rgb(226 85 7), rgb(255 133 73))
+  );
+  --border: var(
+    --color-border-secondary,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+  --input: var(
+    --color-border-primary,
+    light-dark(
+      rgb(26 28 31 / 11.8%),
+      color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+    )
+  );
+  --ring: var(
+    --color-ring-primary,
+    light-dark(rgb(51 156 255), rgb(131 195 255 / 76%))
+  );
+  --font-size-base: var(--font-text-md-size, 14px);
+  --blue: light-dark(rgb(51 156 255), rgb(51 156 255));
+  --orange: light-dark(rgb(226 85 7), rgb(251 106 34));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --red: light-dark(rgb(224 46 42), rgb(255 103 100));
+  --purple: light-dark(rgb(146 79 247), rgb(173 123 249));
+  --yellow: light-dark(rgb(255 195 0), rgb(255 210 64));
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
+  --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
+  --viz-series-4: light-dark(rgb(235 119 177), rgb(240 143 192));
+  --viz-series-5: light-dark(rgb(155 121 236), rgb(170 145 239));
+  --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans: -apple-system, system-ui, &quot;Segoe UI&quot;, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 430;
+  --font-weight-medium: 500;
+  --icon-size: 16px;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --corner-shape: round;
+  --radius: var(--border-radius-lg, 10px);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 1.6);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+}
+
+:root[data-theme=&quot;light&quot;] {
+  color-scheme: light;
+}
+
+:root[data-theme=&quot;dark&quot;] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html &gt; body {
+  /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
+  --color-background-primary: var(
+    --background,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --color-text-primary: var(
+    --foreground,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --color-border-secondary: var(
+    --border,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+
+  margin: 0;
+  padding: var(--visualize-paint-gutter, 0px);
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium, 500);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+}
+
+b,
+strong,
+th {
+  font-weight: var(--font-weight-medium);
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-responsive &gt; .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead th {
+  padding-block: 8px;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 16%, transparent);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 6px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align=&quot;right&quot;]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align=&quot;center&quot;]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  corner-shape: var(--corner-shape);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+#widget &gt; :not(.card, .progress) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--popover-foreground);
+  background: var(--popover);
+  box-shadow: none;
+  font-size: var(--font-size-tooltip);
+  line-height: var(--line-height-tooltip);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin-block: 6px;
+  border: 0;
+  background: var(--border);
+}
+
+.nav {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+}
+
+.progress {
+  display: flex;
+  height: 8px;
+  margin-block: calc((var(--line-height-normal, 1.5em) - 8px) / 2);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+}
+
+.progress-bar:only-child {
+  border-radius: var(--radius-full);
+}
+
+.progress-bar {
+  height: 100%;
+  flex-shrink: 0;
+  border: 0;
+  background: var(--viz-series-1);
+}
+
+.viz-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  color: var(--accent-foreground);
+  background: var(--accent);
+  font-weight: var(--font-weight-medium);
+}
+
+small,
+.text-small,
+.viz-badge {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls &gt; .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.nav-link,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+.btn,
+.nav-link {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover,
+.nav-link:not(:disabled):not([aria-disabled=&quot;true&quot;]):hover {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn-primary {
+  border-color: transparent;
+  color: var(--primary-foreground);
+  background: var(--foreground);
+  background-clip: padding-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(in srgb, var(--primary-foreground) 50%, transparent);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: padding-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.nav-pills .nav-link {
+  min-width: 0;
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.nav-justified .nav-link {
+  flex: 1 1 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.nav-pills .nav-link.active {
+  color: var(--foreground);
+  background: var(--muted);
+}
+
+.btn:disabled,
+.nav-link:disabled,
+.nav-link[aria-disabled=&quot;true&quot;] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type=&quot;file&quot;] {
+  padding: 0;
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control[type=&quot;file&quot;]::file-selector-button {
+  min-height: 26px;
+  margin-right: 8px;
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+}
+
+.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type=&quot;color&quot;] {
+  width: 40px;
+  height: 28px;
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  corner-shape: var(--corner-shape);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 72px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  margin: 0;
+  padding: 0 32px 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(100% - 14px) 50%,
+    calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-select:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-check {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  border-color: var(--input);
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:checked {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: &quot;&quot;;
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+}
+
+.form-check-input[type=&quot;radio&quot;] {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+}
+
+.form-check-input[type=&quot;radio&quot;]:checked {
+  border: 2px solid var(--primary);
+  background:
+    radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
+    var(--primary);
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+  box-shadow: var(--shadow-sm);
+  content: &quot;&quot;;
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  accent-color: var(--primary);
+  background: linear-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent),
+      color-mix(in srgb, var(--foreground) 7%, transparent)
+    )
+    center / 100% 2px no-repeat;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-webkit-slider-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range::-moz-range-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+  [aria-pressed=&quot;true&quot;],
+  [aria-selected=&quot;true&quot;],
+  .is-selected
+) {
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible,
+.nav-link:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (pointer: coarse) {
+  .btn,
+  .nav-link,
+  .form-control,
+  .form-select {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Keep small-screen WebKit from zooming when a text field receives focus. */
+  .form-control,
+  .form-select {
+    font-size: max(16px, var(--font-size-normal));
+  }
+
+  .form-control[type=&quot;file&quot;]::file-selector-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .form-control-color[type=&quot;color&quot;] {
+    width: 44px;
+    height: 44px;
+  }
+
+  .form-control:is(
+    [type=&quot;date&quot;],
+    [type=&quot;datetime-local&quot;],
+    [type=&quot;month&quot;],
+    [type=&quot;time&quot;],
+    [type=&quot;week&quot;]
+  ) {
+    min-width: 0;
+    max-width: 100%;
+    padding-block: 8px;
+  }
+
+  .form-check {
+    min-height: 44px;
+    padding-inline: 15px;
+  }
+
+  .form-check-input {
+    position: relative;
+  }
+
+  .form-check-input::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    content: &quot;&quot;;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-check-label {
+    display: inline-flex;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .form-range {
+    height: 44px;
+    touch-action: pan-y;
+  }
+
+  .form-range::-webkit-slider-runnable-track {
+    height: 44px;
+  }
+
+  .form-range::-moz-range-track {
+    height: 44px;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    margin-top: 12px;
+  }
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget &gt; svg {
+  width: 100%;
+}
+
+/* Model-authored chart rules can otherwise stretch icons after these styles load. */
+svg.lucide {
+  display: block;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  flex: none;
+  margin: 0 !important;
+  stroke-width: 1.6;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+
+html&gt;body{padding:0}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;pl2-language&quot;&gt;
+&lt;style&gt;
+#pl2-language{background:#10052f;color:#faf8ff;font-family:Arial,sans-serif;padding:30px;box-sizing:border-box;border-radius:4px}#pl2-language *{box-sizing:border-box}#pl2-language .eyebrow{color:#e1c747;font-size:11px;letter-spacing:2px;font-weight:600}#pl2-language h1{font-family:Georgia,serif;font-size:40px;line-height:1.1;font-weight:400;margin:14px 0 12px}#pl2-language h1 em{color:#e1c747}#pl2-language .meta{color:#c7bfd8;font-size:13px;line-height:1.6}#pl2-language .columns{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin:28px 0}#pl2-language h2{font:26px Georgia,serif;margin:0 0 8px}#pl2-language .sub{font-size:12px;color:#c7bfd8;margin-bottom:16px;line-height:1.5}#pl2-language .phrase{display:block;width:100%;border:0;border-radius:0;background:transparent;color:#faf8ff;text-align:left;padding:7px 0;cursor:pointer;min-height:44px;font-family:Arial,sans-serif}#pl2-language .phrase:hover{background:#261948}#pl2-language .phrase[aria-pressed=true]{background:#302151}#pl2-language .label{display:flex;justify-content:space-between;gap:12px;font-size:13px;line-height:1.35;margin-bottom:6px}#pl2-language .label span:first-child{overflow-wrap:anywhere}#pl2-language .number{font-variant-numeric:tabular-nums;color:#d7d0e6}#pl2-language .bar{display:block;height:5px;background:#e1c747}#pl2-language .darts .bar{background:#b49adf}#pl2-language .scale{display:flex;justify-content:space-between;font-size:11px;color:#c7bfd8;margin-top:12px;padding-top:8px;border-top:1px solid #44365d}#pl2-language .detail{background:#20123f;padding:22px;border-left:3px solid #e1c747}#pl2-language .detail h3{font:24px Georgia,serif;margin:10px 0}#pl2-language blockquote{font:18px/1.65 Georgia,serif;margin:16px 0;color:#faf8ff}#pl2-language .detail button{background:transparent;border:1px solid #79678d;color:#faf8ff;min-height:40px;padding:8px 12px;cursor:pointer;margin-top:12px;font-size:12px}#pl2-language .foot{border-top:1px solid #44365d;margin-top:24px;padding-top:15px;color:#c7bfd8;font-size:11px;line-height:1.65}#pl2-language a{color:#e1c747}#pl2-language button:focus-visible{outline:2px solid #fff;outline-offset:3px}@media(max-width:520px){#pl2-language{padding:20px}#pl2-language h1{font-size:32px}#pl2-language .columns{grid-template-columns:1fr;gap:28px}}
+&lt;/style&gt;
+&lt;div class=&quot;eyebrow&quot;&gt;PL² LAB · DARTS &amp;amp; PATS&lt;/div&gt;
+&lt;h1&gt;The language of &lt;em&gt;praise&lt;/em&gt;&lt;br&gt;and criticism.&lt;/h1&gt;
+&lt;div class=&quot;meta&quot;&gt;The Breeze · James Madison University · 1991–2026&lt;br&gt;Most frequent opener phrases. Select a phrase to read it in context.&lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;&lt;section id=&quot;pl2-pats&quot; aria-label=&quot;Most frequent pat openers&quot;&gt;&lt;/section&gt;&lt;section id=&quot;pl2-darts&quot; class=&quot;darts&quot; aria-label=&quot;Most frequent dart openers&quot;&gt;&lt;/section&gt;&lt;/div&gt;
+&lt;div class=&quot;detail&quot; aria-live=&quot;polite&quot;&gt;&lt;div class=&quot;eyebrow&quot; id=&quot;pl2-kind&quot;&gt;&lt;/div&gt;&lt;h3 id=&quot;pl2-selected&quot;&gt;&lt;/h3&gt;&lt;div class=&quot;meta&quot; id=&quot;pl2-frequency&quot;&gt;&lt;/div&gt;&lt;blockquote id=&quot;pl2-quote&quot;&gt;&lt;/blockquote&gt;&lt;div class=&quot;meta&quot; id=&quot;pl2-date&quot;&gt;&lt;/div&gt;&lt;button type=&quot;button&quot; id=&quot;pl2-next&quot;&gt;Next example&lt;/button&gt;&lt;/div&gt;
+&lt;div class=&quot;foot&quot;&gt;Counts refer to entries with each opener, not individual words. Case and curly apostrophes are normalized; other punctuation is retained. Missing openers and the three mixed Dart and Pat entries are excluded. Examples show up to three original entries per phrase.&lt;br&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1QxSwNnQDkxWk3HcCvIrr5RelCROchm0MA0AsL78Q5VA/edit#gid=32409503&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Source: parsed_rows&lt;/a&gt; · Snapshot reviewed September 7, 2026 · Entries through April 30, 2026&lt;/div&gt;
+&lt;script type=&quot;application/json&quot; id=&quot;pl2-data&quot;&gt;{&quot;PAT&quot;: {&quot;total&quot;: 5137, &quot;withOpener&quot;: 4852, &quot;unique&quot;: 4066, &quot;phrases&quot;: [{&quot;phrase&quot;: &quot;thank-you&quot;, &quot;count&quot;: 51, &quot;examples&quot;: [{&quot;date&quot;: &quot;1994-03-17&quot;, &quot;text&quot;: &quot;A thank-you pat to the great people at First Year Investigations. I received many praising comments on the \&quot;Understanding Racism\&quot; bulletin board I put up last month, but it is you who deserve the credit! The board attracted not only residents of the hall, but many others that live on and off campus. Sent in by a Gifford Hall RA.&quot;, &quot;id&quot;: 742}, {&quot;date&quot;: &quot;1994-04-14&quot;, &quot;text&quot;: &quot;A thank-you pat to the gentleman who works at Carrier Library and spent 20 minutes looking in storage and on the shelves for a book after his shift was over. Although the book was never found, thanks for looking. Sent in by someone who would be lost in the library.&quot;, &quot;id&quot;: 784}, {&quot;date&quot;: &quot;1994-04-14&quot;, &quot;text&quot;: &quot;A thank-you pat to all of the housekeepers in McGraw-Long and the rest of the Hillside area for being so wonderful and for all the work you do. We really appreciate you. Sent in by some people who enjoy a clean home.&quot;, &quot;id&quot;: 794}]}, {&quot;phrase&quot;: &quot;you&#x27;re-the-best&quot;, &quot;count&quot;: 27, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-09-16&quot;, &quot;text&quot;: &quot;A \&quot;you&#x27;re-the-best\&quot; pat to Bill at Luigi&#x27;s Pizza. You made our get-together Saturday night all the more fun because of your smile and sense of humor. Sent in by students and alumni who know they were probably annoying and appreciated your unique style.&quot;, &quot;id&quot;: 1425}, {&quot;date&quot;: &quot;1997-04-17&quot;, &quot;text&quot;: &quot;A \&quot;you&#x27;re-the-best\&quot; pat to Phyllis the cleaning lady for cleaning our very messy suite. We appreciate everything you do for us. Sent in by the second floor C Wing of Shorts Hall.&quot;, &quot;id&quot;: 1669}, {&quot;date&quot;: &quot;1998-02-19&quot;, &quot;text&quot;: &quot;A \&quot;you&#x27;re-the-best\&quot; pat to Howard, the Harrisonburg Transit driver, who gave me and my friends a sober ride home on a night when we definitely needed it. Sent in by eight Olde Mill residents who probably wouldn&#x27;t have made it home without you.&quot;, &quot;id&quot;: 1893}]}, {&quot;phrase&quot;: &quot;way-to-go&quot;, &quot;count&quot;: 23, &quot;examples&quot;: [{&quot;date&quot;: &quot;1992-03-26&quot;, &quot;text&quot;: &quot;A way-to-go pat to Kembrew McLeod and Phil Sweeney for motivating some usually lazy types into at least thinking about voting. Sent in by a grad student who would have voted if policy would allow.&quot;, &quot;id&quot;: 278}, {&quot;date&quot;: &quot;1993-04-29&quot;, &quot;text&quot;: &quot;A way-to-go pat to Converse Hall for being chosen as Hall Council of the Year. All of your hard work and dedication has paid off, and your residents appreciate all that you have done throughout the year. Sent in by a thankful Converse resident who has benefited from your many programs.&quot;, &quot;id&quot;: 616}, {&quot;date&quot;: &quot;1995-01-16&quot;, &quot;text&quot;: &quot;A way-to-go pat to CISAT Provost Jackson Ramsey for recognizing Michael Carrier&#x27;s contributions to CISAT. It&#x27;s good to see that his job title now matches his job. Sent in by a student who has worked for Michael Carrier and seen his administrative importance.&quot;, &quot;id&quot;: 958}]}, {&quot;phrase&quot;: &quot;thank-you-so-much&quot;, &quot;count&quot;: 18, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-02-08&quot;, &quot;text&quot;: &quot;A thank-you-so-much pat to Raj in the Mercury Sable who drove us back to campus during the snow storm Friday night. Sent in by six women who were happy not to freeze at the Hunter&#x27;s Ridge bus stop.&quot;, &quot;id&quot;: 1275}, {&quot;date&quot;: &quot;1998-02-06&quot;, &quot;text&quot;: &quot;A \&quot;thank-you-so-much\&quot; pat to Linda Cabe Halpern for helping me find enough credits to graduate. Sent in by a student who can get her degree thanks to you.&quot;, &quot;id&quot;: 1865}, {&quot;date&quot;: &quot;1998-02-26&quot;, &quot;text&quot;: &quot;A \&quot;thank-you-so-much\&quot; pat to the Pi Kappa Alpha members who helped me by waiting in the emergency room with me Saturday night. Sent in by an embarrassed but grateful student who will always remember your concern and generosity.&quot;, &quot;id&quot;: 1905}]}, {&quot;phrase&quot;: &quot;you-made-my-day&quot;, &quot;count&quot;: 17, &quot;examples&quot;: [{&quot;date&quot;: &quot;1999-10-11&quot;, &quot;text&quot;: &quot;A \&quot;you-made-my-day\&quot; pat to the guy sitting outside Maury Hall who offered to help carry my things. Sent in by a grateful gal who really appreciated your random act of kindness.&quot;, &quot;id&quot;: 2408}, {&quot;date&quot;: &quot;2002-09-09&quot;, &quot;text&quot;: &quot;A \&quot;you-made-my-day\&quot; pat to the nicest girl ever for finding my cell phone at the bus stop and going way out of her way to get it back to me. Sent in by a student who is relieved that people really do care.&quot;, &quot;id&quot;: 3413}, {&quot;date&quot;: &quot;2004-09-09&quot;, &quot;text&quot;: &quot;A \&quot;you-made-my-day\&quot; pat to the extremely kind sophomore guy who picked up my lost JAC card and called me to return it. From a thankful freshman who&#x27;s impressed that genuinely nice people still exist.&quot;, &quot;id&quot;: 3937}]}, {&quot;phrase&quot;: &quot;you-rock&quot;, &quot;count&quot;: 17, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-02-01&quot;, &quot;text&quot;: &quot;A you-rock pat to everyone who patronized Line 1, Personal Pizzas, in D-hall. We would like to thank all of you and welcome everyone to come see what&#x27;s new. Sent in by a bunch of eager-to-please employees who love making pizza and want longer lines.&quot;, &quot;id&quot;: 1263}, {&quot;date&quot;: &quot;1997-04-21&quot;, &quot;text&quot;: &quot;A \&quot;you-rock\&quot; pat to Missy Weiss for getting the assistant Greek coordinator position. Sent in by the members of Zeta Tau Alpha sorority who are proud of their Jersey girl.&quot;, &quot;id&quot;: 1673}, {&quot;date&quot;: &quot;1997-09-29&quot;, &quot;text&quot;: &quot;A \&quot;you-rock\&quot; pat to my friend who got us both out of a ticket Saturday with some smooth talking and a lot of tears. Sent in by a student who won&#x27;t have a court date thanks to you.&quot;, &quot;id&quot;: 1749}]}, {&quot;phrase&quot;: &quot;job-well-done&quot;, &quot;count&quot;: 16, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-04-15&quot;, &quot;text&quot;: &quot;A job-well-done pat to Cristie Breen and Sarah Alexander for the work they did on the Office of Sexual Assault Education Newsletter. Their contribution to our department was truly appreciated, thanks for helping us \&quot;spread the word\&quot; about sexual assault education and prevention. Sent in by Hillary Wing-Lott, sexual assault education coordinator.&quot;, &quot;id&quot;: 1363}, {&quot;date&quot;: &quot;1996-09-12&quot;, &quot;text&quot;: &quot;A job-well-done pat to all of the JMU housekeepers who did a great job during both the flood and National Housekeeping Week. Sent in by the Director of Facilities Management and appreciative associates.&quot;, &quot;id&quot;: 1415}, {&quot;date&quot;: &quot;1997-02-17&quot;, &quot;text&quot;: &quot;A \&quot;job-well-done\&quot; pat to the two men who fixed a hole in the roof of a third-floor room in Garber Hall last week. Your hard work and politeness were greatly appreciated. Thank you. Sent in by a student who is thankful these workers came and saved the day before the roof crashed down on his head.&quot;, &quot;id&quot;: 1603}]}, {&quot;phrase&quot;: &quot;you-saved-my-life&quot;, &quot;count&quot;: 15, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-04-18&quot;, &quot;text&quot;: &quot;A you-saved-my-life pat to Brad Isler, who not only returned my wallet with $68 in it, but bought me dinner when I should have been the one buying. Sent in by a very thankful student who was so happy to get his credit cards and JAC card back.&quot;, &quot;id&quot;: 1367}, {&quot;date&quot;: &quot;1997-09-01&quot;, &quot;text&quot;: &quot;A \&quot;you-saved-my-life\&quot; pat to the girl at a party Thursday night who told me where to find my lost JAC card. Sent in by a grateful student who didn&#x27;t have the money for a new one and was very glad you helped her out.&quot;, &quot;id&quot;: 1697}, {&quot;date&quot;: &quot;1998-04-20&quot;, &quot;text&quot;: &quot;A \&quot;you-saved-my-life\&quot; pat to the wonderful girl who found my wallet and returned it with everything in it. Sent in by a grateful, absent-minded student who thought she&#x27;d never see her credit card and keys again.&quot;, &quot;id&quot;: 1961}]}, {&quot;phrase&quot;: &quot;appreciative&quot;, &quot;count&quot;: 12, &quot;examples&quot;: [{&quot;date&quot;: &quot;1992-02-06&quot;, &quot;text&quot;: &quot;An appreciative pat to UPB for sponsoring Odadaa. \&quot;Let the music begin\&quot; again! Sent in by a student who went into Wilson Hall depressed and came out dancing.&quot;, &quot;id&quot;: 208}, {&quot;date&quot;: &quot;1992-04-16&quot;, &quot;text&quot;: &quot;An appreciative pat to the many self-respecting women on campus who would rather take responsibility for themselves than be doted on by some crave, pandering \&quot;gentlemen.\&quot; As one of the many guys on campus who prefers having a woman as an equal partner to having a \&quot;lady\&quot; as a dependent, I give you my respect and thanks. Sent in anonymously.&quot;, &quot;id&quot;: 314}, {&quot;date&quot;: &quot;1992-09-17&quot;, &quot;text&quot;: &quot;An appreciative pat to the 12th-man heckling section who sit on the hill during soccer games. We hope to see and hear you all season, causing living hell for the opponents, especially their goalies. Sent in by the JMU soccer team.&quot;, &quot;id&quot;: 340}]}, {&quot;phrase&quot;: &quot;congratulations&quot;, &quot;count&quot;: 12, &quot;examples&quot;: [{&quot;date&quot;: &quot;1992-09-24&quot;, &quot;text&quot;: &quot;A congratulations pat to the debate team on its first win of the season at King&#x27;s College. Wishing you continued success. Sent in by the speech team.&quot;, &quot;id&quot;: 354}, {&quot;date&quot;: &quot;1997-04-17&quot;, &quot;text&quot;: &quot;A \&quot;congratulations\&quot; pat to Jacqueline Nathaniel for making captain of the Dukettes for next year. Sent in by a friend who realizes your talent, time and hard work are starting to pay off.&quot;, &quot;id&quot;: 1671}, {&quot;date&quot;: &quot;1998-02-26&quot;, &quot;text&quot;: &quot;A \&quot;congratulations\&quot; pat to the women&#x27;s club softball team for defeating Duke University and the University of North Carolina last weekend. Sent in by a team member who had a great time and can&#x27;t wait to continue an undefeated season.&quot;, &quot;id&quot;: 1901}]}, {&quot;phrase&quot;: &quot;thanks-for-the-memories&quot;, &quot;count&quot;: 11, &quot;examples&quot;: [{&quot;date&quot;: &quot;1998-04-30&quot;, &quot;text&quot;: &quot;A \&quot;thanks-for-the-memories\&quot; pat to all the residents and staff of Eagle Hall for a year more incredible than anyone could&#x27;ve ever imagined. Sent in by Eagle Hall director Keith Humphrey, who will always remember this year fondly.&quot;, &quot;id&quot;: 1981}, {&quot;date&quot;: &quot;2000-10-12&quot;, &quot;text&quot;: &quot;A \&quot;thanks-for-the-memories\&quot; pat to all of those D-hall workers who worked this past Homecoming weekend. Sent in by a still-recovering student who enjoyed seeing your faces, even if he was seeing two of them.&quot;, &quot;id&quot;: 2787}, {&quot;date&quot;: &quot;2000-12-07&quot;, &quot;text&quot;: &quot;A \&quot;thanks-for-the-memories\&quot; pat to my ex-girlfriend who had sex with me in the UREG hot tub. You made a good time at JMU even better. Sent in by a graduating senior who says \&quot;ha, ha, ha\&quot; to all those who have been relaxing in his love.&quot;, &quot;id&quot;: 2873}]}, {&quot;phrase&quot;: &quot;thanks-a-million&quot;, &quot;count&quot;: 10, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-01-15&quot;, &quot;text&quot;: &quot;A thanks-a-million pat to the two male JMU students in the Toyota Corolla who stopped Jan. 6 to help me on Interstate 81. Getting back to campus in the snow was a whole lot easier knowing someone was watching out for me. Sent in by a senior who will always remember your kindness and concern.&quot;, &quot;id&quot;: 1231}, {&quot;date&quot;: &quot;1997-02-06&quot;, &quot;text&quot;: &quot;A \&quot;thanks-a-million\&quot; pat to the brothers of Alpha Kappa Lambda and all of our other volunteers for helping out until all hours of the morning after the Rusted Root concert. Sent in by the UPB executive council.&quot;, &quot;id&quot;: 1583}, {&quot;date&quot;: &quot;1997-02-17&quot;, &quot;text&quot;: &quot;A \&quot;thanks-a-million\&quot; pat to the guy in the issues room at UREC who lent me a T-shirt to work out in. Sent in by a forgetful girl who was not looking forward to rowing in a sweater.&quot;, &quot;id&quot;: 1601}]}]}, &quot;DART&quot;: {&quot;total&quot;: 5723, &quot;withOpener&quot;: 5487, &quot;unique&quot;: 5036, &quot;phrases&quot;: [{&quot;phrase&quot;: &quot;are-you-kidding-me?&quot;, &quot;count&quot;: 15, &quot;examples&quot;: [{&quot;date&quot;: &quot;1999-11-04&quot;, &quot;text&quot;: &quot;An \&quot;are-you-kidding-me?\&quot; dart to the clown who shot our house with a BB gun last week. Sent in by four roommates who, although they think the bullet holes in the window look kinda cool, still aren&#x27;t too happy.&quot;, &quot;id&quot;: 2442}, {&quot;date&quot;: &quot;2007-03-01&quot;, &quot;text&quot;: &quot;An \&quot;are-you-kidding-me?\&quot; dart to the \&quot;amused junior\&quot; who darted Brian Goodman, The Breeze&#x27;s mouthpiece of the cosmos, for bad news. From a fellow student who seriously hopes your anger was a joke, because no intelligent Duke would believe made-up horoscopes . . . right?&quot;, &quot;id&quot;: 4815}, {&quot;date&quot;: &quot;2009-10-05&quot;, &quot;text&quot;: &quot;An \&quot;are-you-kidding-me?\&quot; dart to the professor who rolled his eyes, e-mailed and made side comments during students\u2019 presentations. From a student who didn\u2019t realize she would see such unprofessional behavior in graduate school.&quot;, &quot;id&quot;: 5837}]}, {&quot;phrase&quot;: &quot;get-a-room&quot;, &quot;count&quot;: 12, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-09-26&quot;, &quot;text&quot;: &quot;A \&quot;get-a-room\&quot; dart to the couple making out on the Quad last week. Sent in by a student who believes in romance without wanton public displays of affection.&quot;, &quot;id&quot;: 1438}, {&quot;date&quot;: &quot;1998-04-16&quot;, &quot;text&quot;: &quot;A \&quot;get-a-room\&quot; dart to the couple in a MUS203 class who can&#x27;t keep their hands off each other. Sent in by several students who don&#x27;t enjoy watching R-rated material in the middle of a lecture.&quot;, &quot;id&quot;: 1958}, {&quot;date&quot;: &quot;1999-08-30&quot;, &quot;text&quot;: &quot;A \&quot;get-a-room\&quot; dart to the couple who was hooking up on the sidewalk in Squire Hill the other day. Sent in by some Squire Hill dwellers who were disgusted by your lack of discretion and taste.&quot;, &quot;id&quot;: 2323}]}, {&quot;phrase&quot;: &quot;thanks-for-nothing&quot;, &quot;count&quot;: 12, &quot;examples&quot;: [{&quot;date&quot;: &quot;1996-09-02&quot;, &quot;text&quot;: &quot;A thanks-for-nothing dart for the new e-mail system. With very little warning and no instructions, the mail system sure has brightened the beginning of the school year. Sent in by a student who feels this system can be easily compared to a tornado.&quot;, &quot;id&quot;: 1396}, {&quot;date&quot;: &quot;1996-10-24&quot;, &quot;text&quot;: &quot;A \&quot;thanks-for-nothing\&quot; dart to The Breeze for never printing the darts and pats I submit. Sent in by a student who [incorrectly] bets that this dart won&#x27;t even be printed.&quot;, &quot;id&quot;: 1482}, {&quot;date&quot;: &quot;2000-11-02&quot;, &quot;text&quot;: &quot;A \&quot;thanks-for-nothing\&quot; dart to the hypocritical anti-Turf people who have made it so that the only thing I have to look forward to is a list of funny things that had to be left out. Sent in by an annoyed junior who thinks everyone needs to lighten up, and always stand behind our constitutional rights no matter what the subject matter.&quot;, &quot;id&quot;: 2819}]}, {&quot;phrase&quot;: &quot;are-you-kidding-me&quot;, &quot;count&quot;: 11, &quot;examples&quot;: [{&quot;date&quot;: &quot;2004-01-29&quot;, &quot;text&quot;: &quot;An \&quot;are-you-kidding-me\&quot; dart to the girl at UREC in her polo shirt, collar up, with expensive jewelry on the Precor. From a group of girls who want to thank you for the early laugh and who think it&#x27;s OK to take off your jewelry, put down the collar and wear a T-shirt at UREC. &quot;, &quot;id&quot;: 3781}, {&quot;date&quot;: &quot;2012-10-25&quot;, &quot;text&quot;: &quot;An \&quot;are-you-kidding-me\u201d dart to the guy in the Jackson study lounge for bringing in food and proceeding to blast \&quot;I Kissed a Girl\u201d through his headphones without doing any real work. From a girl who is swamped with work.&quot;, &quot;id&quot;: 7922}, {&quot;date&quot;: &quot;2014-11-13&quot;, &quot;text&quot;: &quot;An \&quot;are-you-kidding-me\&quot; dart to the anti-abortion protesters on the commons on Monday. From a senior who is personally disgusted that anybody could think that\u2019s a proper way to argue a point.&quot;, &quot;id&quot;: 9205}]}, {&quot;phrase&quot;: &quot;give-me-a-break&quot;, &quot;count&quot;: 11, &quot;examples&quot;: [{&quot;date&quot;: &quot;1997-11-06&quot;, &quot;text&quot;: &quot;A \&quot;give-me-a-break\&quot; dart to the parking division for giving me a ticket while I was in the Health Center getting emergency treatment. Sent in by a student who thought it was hard enough being sick but had to deal with a ticket on top of it.&quot;, &quot;id&quot;: 1796}, {&quot;date&quot;: &quot;2003-09-29&quot;, &quot;text&quot;: &quot;A \&quot;give-me-a-break\&quot; dart to the house editorial in the Sept. 22 issue of The Breeze for being so self-absorbed that you can&#x27;t see past your own beer bong to the utter destruction and death caused by Hurricane Isabel. From a resident of Harrisonburg and a graduate of JMU who is outraged by your lack of concern and care for the larger community.&quot;, &quot;id&quot;: 3687}, {&quot;date&quot;: &quot;2005-02-21&quot;, &quot;text&quot;: &quot;A \&quot;give-me-a-break\&quot; dart to UPB for not allowing my friend and I to go to the movie on Friday night because the ticket booth closed at 7:10 p.m. even though the movie theater was not full and the movie hadn&#x27;t started. From a very disappointed senior who concluded that being 10 minutes late for a movie that hadn&#x27;t started was not very cool.&quot;, &quot;id&quot;: 4113}]}, {&quot;phrase&quot;: &quot;what-were-you-thinking&quot;, &quot;count&quot;: 10, &quot;examples&quot;: [{&quot;date&quot;: &quot;1998-10-08&quot;, &quot;text&quot;: &quot;A \&quot;what-were-you-thinking\&quot; dart to the people responsible for installing the ridiculously useless stop signs on the CISAT campus since there are no pedestrians out there. Sent in by students who suffer whiplash from the stops.&quot;, &quot;id&quot;: 2048}, {&quot;date&quot;: &quot;1999-09-13&quot;, &quot;text&quot;: &quot;A \&quot;what-were-you-thinking\&quot; dart to whoever decided not to hire back our favorite Taylor Down Under employee, June. Sent in by disgruntled June fans who miss her positive attitude each morning.&quot;, &quot;id&quot;: 2351}, {&quot;date&quot;: &quot;1999-10-11&quot;, &quot;text&quot;: &quot;A \&quot;what-were-you-thinking\&quot; dart to whoever planned the Parade of Champions marching band competition for a weekend when students would be on campus, rather than over fall break when it usually takes place. Sent in by an angry student who almost missed a required dance recital because there were no parking spaces on campus.&quot;, &quot;id&quot;: 2404}]}, {&quot;phrase&quot;: &quot;what-were-you-thinking?&quot;, &quot;count&quot;: 10, &quot;examples&quot;: [{&quot;date&quot;: &quot;1997-04-07&quot;, &quot;text&quot;: &quot;A \&quot;what-were-you-thinking?\&quot; dart to the middle education department for not keeping Sandy Dutemple. She will be missed by all her students. Sent in by a student who thinks the line to get into Dutemple&#x27;s office is reason enough to keep her.&quot;, &quot;id&quot;: 1652}, {&quot;date&quot;: &quot;1999-03-22&quot;, &quot;text&quot;: &quot;A \&quot;what-were-you-thinking?\&quot; dart to my mean-spirited roommate who purposefully turned off my VCR when I was recording \&quot;Party of Five.\&quot; Sent in by a sophomore who is very upset over missing her favorite show and thinks her roommate needs to find another way to get revenge on her.&quot;, &quot;id&quot;: 2253}, {&quot;date&quot;: &quot;2002-08-26&quot;, &quot;text&quot;: &quot;A \&quot;what-were-you-thinking?\&quot; dart to Carrier Library for providing only one defunct copy machine on the reference level of the Library. Sent in by a group of doctoral students who are spending a lot of money on copies for their dissertations and don&#x27;t have the time nor the patience to carry around stacks of journals in search of a copier.&quot;, &quot;id&quot;: 3394}]}, {&quot;phrase&quot;: &quot;who-do-you-think-you-are?&quot;, &quot;count&quot;: 10, &quot;examples&quot;: [{&quot;date&quot;: &quot;1998-02-16&quot;, &quot;text&quot;: &quot;A \&quot;who-do-you-think-you-are?\&quot; dart to the people who ignore the one-way sign into Y-lot by Anthony-Seeger and take parking spots away from cars who&#x27;ve been waiting in line. Sent in by a bitter student who blames you for her lateness to class and debt in parking tickets.&quot;, &quot;id&quot;: 1886}, {&quot;date&quot;: &quot;1998-03-26&quot;, &quot;text&quot;: &quot;A \&quot;who-do-you-think-you-are?\&quot; dart to the individual who thought SGA wasted money by giving it to the Breakdancing Club. Sent in by a proud member of the JMU BDC who thinks you&#x27;re jealous because you can&#x27;t backspin.&quot;, &quot;id&quot;: 1928}, {&quot;date&quot;: &quot;2006-03-20&quot;, &quot;text&quot;: &quot;A \&quot;who-do-you-think-you-are?\&quot; dart to the scrawny boy who stole the parking spot I was patiently waiting for. From an angry junior girl who doesn&#x27;t understand how anyone can make it to college without understanding what an illuminated turn signal indicates. &quot;, &quot;id&quot;: 4484}]}, {&quot;phrase&quot;: &quot;seriously?&quot;, &quot;count&quot;: 9, &quot;examples&quot;: [{&quot;date&quot;: &quot;2009-09-08&quot;, &quot;text&quot;: &quot;A \&quot;seriously?\&quot; dart to the girl who tried to pee behind the bookstore shelter while waiting for the \&quot;drunk bus.\&quot; From a grossed-out onlooker who was glad the on-campus officer caught you.&quot;, &quot;id&quot;: 5756}, {&quot;date&quot;: &quot;2010-10-14&quot;, &quot;text&quot;: &quot;A \&quot;seriously?\&quot; dart to the girl in my GHIST class who tweeted during class about no one giving a rat\u2019s a** about our class. From a student who actually cares about school and wonders why you are here if you don\u2019t.&quot;, &quot;id&quot;: 6574}, {&quot;date&quot;: &quot;2013-10-24&quot;, &quot;text&quot;: &quot;A \&quot;seriously?\&quot; dart to the bus driver who picked up two girls 20 feet before the bus stop and drove right past the shelter while making eye contact with me. From a junior who didn\u2019t feel like walking in the cold.&quot;, &quot;id&quot;: 8600}]}, {&quot;phrase&quot;: &quot;watch-where-you&#x27;re-going&quot;, &quot;count&quot;: 9, &quot;examples&quot;: [{&quot;date&quot;: &quot;1997-09-08&quot;, &quot;text&quot;: &quot;A \&quot;watch-where-you&#x27;re-going\&quot; dart to the clutz who spilled an entire beer \u2014 cup and all \u2014 down my shirt Saturday night. Sent in by a student who didn&#x27;t appreciate walking around reeking of Milwaukee&#x27;s Best all night.&quot;, &quot;id&quot;: 1712}, {&quot;date&quot;: &quot;1998-04-02&quot;, &quot;text&quot;: &quot;A \&quot;watch-where-you&#x27;re-going\&quot; dart to the Harrisonburg Transit Authority driver who almost ran me over Monday night. Sent in by a traumatized student who didn&#x27;t enjoy seeing her life flash before her eyes.&quot;, &quot;id&quot;: 1938}, {&quot;date&quot;: &quot;1999-10-07&quot;, &quot;text&quot;: &quot;A \&quot;watch-where-you&#x27;re-going\&quot; dart to the guy who almost killed me in front of ISAT while riding his bike the other night. Sent in by a student who realizes it was raining, but thinks you could probably steer better and watch out for people if you kept your head up.&quot;, &quot;id&quot;: 2399}]}, {&quot;phrase&quot;: &quot;get-a-life&quot;, &quot;count&quot;: 8, &quot;examples&quot;: [{&quot;date&quot;: &quot;1995-03-27&quot;, &quot;text&quot;: &quot;A get-a-life dart to the tight-ass residents of Dingledine Hall who call the Resident Adviser to complain about the noise of a pin dropping. Sent in by many of us who can&#x27;t wait to get the hell out of here.&quot;, &quot;id&quot;: 1037}, {&quot;date&quot;: &quot;1997-01-16&quot;, &quot;text&quot;: &quot;A \&quot;get-a-life\&quot; dart to the student who has nothing better to do than complain about a little JMU cheerleading doll. Jealousy will get you nowhere. The 1996 national champions deserve a little glory other than being on NBC in April 1996. Sent in by a fan who thinks \&quot;without cheerleaders, it&#x27;s only a game.\&quot;&quot;, &quot;id&quot;: 1550}, {&quot;date&quot;: &quot;1999-10-21&quot;, &quot;text&quot;: &quot;A \&quot;get-a-life\&quot; dart to the people who have nothing better to do than put on airs and act like snobs to the rest of us. Sent in by three students who wish these people would stop acting like a 3-year-old and grow the heck up.&quot;, &quot;id&quot;: 2421}]}, {&quot;phrase&quot;: &quot;get-your-facts-straight&quot;, &quot;count&quot;: 8, &quot;examples&quot;: [{&quot;date&quot;: &quot;1994-09-19&quot;, &quot;text&quot;: &quot;A get-your-facts-straight dart to the student who hates the Chi Phi \&quot;Beer, Bitches, Brotherhood\&quot; T-shirts. Those shirts haven&#x27;t been in print since 1988. Our rush T-shirts say simply, \&quot;Rush Chi-Phi.\&quot; Our fraternity is quite politically correct now, but thanks for your concern, babe. Sent in by a Chi Phi who hates the Fiji shirt \&quot;I&#x27;m a Fiji. You&#x27;re a bastard.\&quot; Grow up young pseudo-Greeks.&quot;, &quot;id&quot;: 845}, {&quot;date&quot;: &quot;2003-02-10&quot;, &quot;text&quot;: &quot;A \&quot;get-your-facts-straight\&quot; dart to the two girls who told us to come back at 6:30 p.m. to buy \&quot;Of Mice and Men\&quot; tickets when they really went on sale at 6 p.m. From two girls who went all the way back in the cold to Theatre II at 6:30 p.m. on the dot, only to find that there was only one ticket left for the 8 p.m. show.&quot;, &quot;id&quot;: 3581}, {&quot;date&quot;: &quot;2006-04-13&quot;, &quot;text&quot;: &quot;A \&quot;get-your-facts-straight\&quot; dart to Monday&#x27;s dart about how George Allen has \&quot;held the office since before we were born.\&quot; From a senior whose shoe size is bigger than the number of years Sen. Allen has been a senator.&quot;, &quot;id&quot;: 4530}]}]}}&lt;/script&gt;
+&lt;script&gt;
+(()=&gt;{const root=document.getElementById(&#x27;pl2-language&#x27;);const data=JSON.parse(root.querySelector(&#x27;#pl2-data&#x27;).textContent);const max=Math.max(...Object.values(data).flatMap(d=&gt;d.phrases.map(p=&gt;p.count)));let selected,kind,example=0;const el=id=&gt;root.querySelector(&#x27;#&#x27;+id);function show(){const r=selected.examples[example];el(&#x27;pl2-kind&#x27;).textContent=kind===&#x27;PAT&#x27;?&#x27;PRAISE · PAT&#x27;:&#x27;CRITICISM · DART&#x27;;el(&#x27;pl2-selected&#x27;).textContent=&#x27;“&#x27;+selected.phrase+&#x27;”&#x27;;el(&#x27;pl2-frequency&#x27;).textContent=selected.count+&#x27; entries · &#x27;+(selected.count/data[kind].withOpener*100).toFixed(2)+&#x27;% of &#x27;+kind.toLowerCase()+&#x27; entries with openers&#x27;;el(&#x27;pl2-quote&#x27;).textContent=r.text;el(&#x27;pl2-date&#x27;).textContent=r.date+&#x27; · Entry &#x27;+r.id+&#x27; · Example &#x27;+(example+1)+&#x27; of &#x27;+selected.examples.length;el(&#x27;pl2-next&#x27;).hidden=selected.examples.length&lt;2;}
+for(const k of [&#x27;PAT&#x27;,&#x27;DART&#x27;]){const d=data[k],section=el(k===&#x27;PAT&#x27;?&#x27;pl2-pats&#x27;:&#x27;pl2-darts&#x27;);const title=document.createElement(&#x27;h2&#x27;);title.textContent=k===&#x27;PAT&#x27;?&#x27;Pats / praise&#x27;:&#x27;Darts / criticism&#x27;;section.append(title);const sub=document.createElement(&#x27;div&#x27;);sub.className=&#x27;sub&#x27;;sub.textContent=d.withOpener.toLocaleString()+&#x27; entries with openers · &#x27;+d.unique.toLocaleString()+&#x27; distinct phrases&#x27;;section.append(sub);for(const p of d.phrases){const b=document.createElement(&#x27;button&#x27;);b.type=&#x27;button&#x27;;b.className=&#x27;phrase&#x27;;b.setAttribute(&#x27;aria-pressed&#x27;,&#x27;false&#x27;);b.setAttribute(&#x27;aria-label&#x27;,p.phrase+&#x27;, &#x27;+p.count+&#x27; &#x27;+k.toLowerCase()+&#x27; entries. Read examples.&#x27;);const label=document.createElement(&#x27;span&#x27;);label.className=&#x27;label&#x27;;const t=document.createElement(&#x27;span&#x27;);t.textContent=p.phrase;const n=document.createElement(&#x27;span&#x27;);n.className=&#x27;number&#x27;;n.textContent=p.count;label.append(t,n);const bar=document.createElement(&#x27;span&#x27;);bar.className=&#x27;bar&#x27;;bar.style.width=p.count/max*100+&#x27;%&#x27;;b.append(label,bar);b.onclick=()=&gt;{root.querySelectorAll(&#x27;.phrase&#x27;).forEach(x=&gt;x.setAttribute(&#x27;aria-pressed&#x27;,&#x27;false&#x27;));b.setAttribute(&#x27;aria-pressed&#x27;,&#x27;true&#x27;);selected=p;kind=k;example=0;show();};section.append(b);}const scale=document.createElement(&#x27;div&#x27;);scale.className=&#x27;scale&#x27;;scale.innerHTML=&#x27;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;Entries · shared scale&lt;/span&gt;&lt;span&gt;&#x27;+max+&#x27;&lt;/span&gt;&#x27;;section.append(scale);}
+el(&#x27;pl2-next&#x27;).onclick=()=&gt;{example=(example+1)%selected.examples.length;show();};root.querySelector(&#x27;.phrase&#x27;).click();})();
+&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+  let lastPointerWasTouch = false;
+  let pinnedByTouch = false;
+
+  const getTrigger = (target) =&gt;
+    target?.nodeType === Node.ELEMENT_NODE
+      ? target.closest(&quot;[data-tooltip]&quot;)
+      : null;
+  const containsTarget = (trigger, target) =&gt;
+    target?.nodeType != null &amp;&amp; trigger.contains(target);
+  const getContent = (trigger) =&gt;
+    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+  const getPlacement = (trigger) =&gt; {
+    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
+    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  };
+  const getTooltip = () =&gt; {
+    if (tooltip == null) {
+      tooltip = document.createElement(&quot;div&quot;);
+      tooltip.id = tooltipId;
+      tooltip.className = &quot;tooltip&quot;;
+      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) =&gt; {
+    const ids = new Set(
+      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute(&quot;aria-describedby&quot;);
+    } else {
+      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+    }
+  };
+  const clearOpenTimeout = () =&gt; {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) =&gt; {
+    clearOpenTimeout();
+    pinnedByTouch = false;
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) =&gt; {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-width&quot;,
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-height&quot;,
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: &quot;fixed&quot;,
+    })
+      .then(({ x, y }) =&gt; {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = &quot;visible&quot;;
+      })
+      .catch(() =&gt; {
+        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) =&gt; {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = &quot;hidden&quot;;
+    floating.style.transform = &quot;translate(0, 0)&quot;;
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) =&gt; {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() =&gt; {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) =&gt; {
+    if (event.pointerType === &quot;touch&quot;) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handlePointer = (event) =&gt; {
+    lastPointerWasTouch =
+      event.type === &quot;pointerdown&quot; &amp;&amp; event.pointerType === &quot;touch&quot;;
+  };
+  const handleTouchClick = (event) =&gt; {
+    const isTouch = event.pointerType === &quot;touch&quot; || lastPointerWasTouch;
+    lastPointerWasTouch = false;
+    if (!isTouch || event.detail === 0) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (
+      trigger == null ||
+      !trigger.isConnected ||
+      getContent(trigger).length === 0 ||
+      (pinnedByTouch &amp;&amp; activeTrigger === trigger)
+    ) {
+      if (pinnedByTouch) {
+        closeTooltip();
+      }
+      return;
+    }
+    openTooltip(trigger);
+    pinnedByTouch = activeTrigger === trigger;
+    window.setTimeout(() =&gt; {
+      if (activeTrigger === trigger &amp;&amp; !trigger.isConnected) {
+        closeTooltip(false);
+      }
+    }, 0);
+  };
+  const handleLeave = (event) =&gt; {
+    if (pinnedByTouch) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) =&gt; {
+    if (event.key === &quot;Escape&quot;) {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) =&gt; {
+    lastPointerWasTouch = false;
+    const trigger = getTrigger(event.target);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const destroy = () =&gt; {
+    closeTooltip(false);
+    lastPointerWasTouch = false;
+    document.removeEventListener(&quot;pointerover&quot;, handlePointerOpen);
+    document.removeEventListener(&quot;pointerdown&quot;, handlePointer);
+    document.removeEventListener(&quot;pointercancel&quot;, handlePointer);
+    document.removeEventListener(&quot;click&quot;, handleTouchClick);
+    document.removeEventListener(&quot;pointerout&quot;, handleLeave);
+    document.removeEventListener(&quot;focusin&quot;, handleFocusIn);
+    document.removeEventListener(&quot;focusout&quot;, handleLeave);
+    document.removeEventListener(&quot;keydown&quot;, handleKeyDown);
+    document.removeEventListener(&quot;contextmenu&quot;, handleContextMenu);
+    tooltip = null;
+  };
+
+  document.addEventListener(&quot;pointerover&quot;, handlePointerOpen);
+  document.addEventListener(&quot;pointerdown&quot;, handlePointer);
+  document.addEventListener(&quot;pointercancel&quot;, handlePointer);
+  document.addEventListener(&quot;click&quot;, handleTouchClick);
+  document.addEventListener(&quot;pointerout&quot;, handleLeave);
+  document.addEventListener(&quot;focusin&quot;, handleFocusIn);
+  document.addEventListener(&quot;focusout&quot;, handleLeave);
+  document.addEventListener(&quot;keydown&quot;, handleKeyDown);
+  document.addEventListener(&quot;contextmenu&quot;, handleContextMenu);
+  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-tabs&quot;&gt;
+(() =&gt; {
+  const selector = &#x27;.nav[role=&quot;tablist&quot;] [role=&quot;tab&quot;]&#x27;;
+  const disabled = &#x27;:disabled,[aria-disabled=&quot;true&quot;]&#x27;;
+  const selectTab = (selected) =&gt; {
+    const panelId = selected.getAttribute(&quot;aria-controls&quot;);
+    for (const tab of selected.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;)) {
+      const active = tab === selected;
+      tab.classList.toggle(&quot;active&quot;, active);
+      tab.setAttribute(&quot;aria-selected&quot;, String(active));
+      const id = tab.getAttribute(&quot;aria-controls&quot;);
+      const panel = id &amp;&amp; document.getElementById(id);
+      if (panel != null) {
+        panel.hidden = id !== panelId;
+        if (!panel.hidden &amp;&amp; selected.id) {
+          panel.setAttribute(&quot;aria-labelledby&quot;, selected.id);
+        }
+      }
+    }
+  };
+  const interact = (event) =&gt; {
+    const tab = event.target?.closest?.(selector);
+    if (event.defaultPrevented || tab == null || tab.matches(disabled)) {
+      return;
+    }
+    if (event.type === &quot;click&quot;) {
+      selectTab(tab);
+      return;
+    }
+    const tabs = Array.from(
+      tab.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;),
+    ).filter((candidate) =&gt; !candidate.matches(disabled));
+    const current = tabs.indexOf(tab);
+    let next;
+    if (event.key === &quot;ArrowRight&quot; || event.key === &quot;ArrowDown&quot;) {
+      next = (current + 1) % tabs.length;
+    } else if (event.key === &quot;ArrowLeft&quot; || event.key === &quot;ArrowUp&quot;) {
+      next = (current + tabs.length - 1) % tabs.length;
+    } else if (event.key === &quot;Home&quot;) {
+      next = 0;
+    } else if (event.key === &quot;End&quot;) {
+      next = tabs.length - 1;
+    } else {
+      return;
+    }
+    event.preventDefault();
+    tabs[next].focus();
+    selectTab(tabs[next]);
+  };
+
+  for (const list of document.querySelectorAll(&#x27;.nav[role=&quot;tablist&quot;]&#x27;)) {
+    const selected =
+      list.querySelector(&#x27;[role=&quot;tab&quot;][aria-selected=&quot;true&quot;]&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;].active&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;]&#x27;);
+    if (selected != null) {
+      selectTab(selected);
+    }
+  }
+  document.addEventListener(&quot;click&quot;, interact);
+  document.addEventListener(&quot;keydown&quot;, interact);
+  window.addEventListener(&quot;pagehide&quot;, () =&gt; {
+    document.removeEventListener(&quot;click&quot;, interact);
+    document.removeEventListener(&quot;keydown&quot;, interact);
+  }, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  const initialize = () =&gt; {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById(&quot;codex-visualization-lucide&quot;)
+    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+})();
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe>
+</body>
+</html>
